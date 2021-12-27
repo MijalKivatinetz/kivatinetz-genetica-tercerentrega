@@ -1,0 +1,70 @@
+/*=======INDEX======*/
+ /*grilla index*/
+ 
+  .cito{
+    margin: 0 20px 0 20px;
+    text-align: justify;
+  }
+  /*carrusel*/
+  .carrusel-container{
+    margin: 20px;
+  }
+  /*ancho de las fotos index*/
+  .pami{
+    width: $width-img;
+  }
+  .jerarquico{
+    width: $width-img;
+  }
+  /*h2*/
+  .h2-cito{
+    border: solid 5px $color-borde-gris;
+    background-color: $color-fondo;
+  }
+  
+  /*seccion lab colegas*/
+  /*creo dos etiquetas para hacer el extend, labcolegas-img y labcolegas-p*/
+  .labcolegas-img-tuc{
+    border: $border-img;
+    width: $width-img;
+  }
+  .labcolegas-p{
+    margin: $lab-p-margin;
+    text-align: justify;
+
+  }
+  .tucuman{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+  }
+ 
+  .laht{
+    @extend .tucuman;
+  }
+  .laht{
+       img{
+        @extend .labcolegas-img-tuc;
+        margin: 0 0 5px 0;
+        
+       }
+  }
+ 
+  
+  /*seccion obras sociales*/
+  .obrasSociales{
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .obrasSociales {
+                    img{
+                             border: solid 2px $color-borde-gris;
+                    }
+  }
+  /*hasta aquí obras sociales*/

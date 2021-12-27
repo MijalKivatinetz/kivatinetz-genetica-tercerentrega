@@ -1,0 +1,16 @@
+@import "base/variables";
+@import "base/root";
+
+@import "componentes/nav";
+@import "componentes/link-arriba";
+@import "componentes/footer";
+@import "componentes/grilla-general";
+
+@import "views/index";
+@import "views/estudios";
+@import "views/nosotros";
+@import "views/laboratorio";
+@import "views/contacto";
+
+@import "componentes/media-queries";
+

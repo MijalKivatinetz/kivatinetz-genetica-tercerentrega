@@ -1,0 +1,147 @@
+/*==========CONTACTO===========*/
+//utilizo mixin//
+
+
+.formulario{
+    margin: 2%;
+    border: solid 5px $color-borde-gris ;
+    padding: 2%;
+    
+    
+  }
+ 
+  .telefono {
+    @include flex(flex,column,center);
+ 
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    border: $color-borde-gris solid 5px;
+  
+  }
+  
+  .telefono  {
+                p{
+                    margin: $lab-p-margin;
+                }
+  }
+  .telefono  {  
+                div{
+                    margin: $lab-p-margin;
+                }
+  }
+  
+
+  .enviar{
+            &:active{
+                      background-color: yellow;
+                      color: black;
+            }
+          }
+                                
+  
+ 
+  
+  
+  .animacionuno{
+    @include animation(animacionuno,3s,infinite,ease)
+
+  }
+  
+  @keyframes animacionuno {
+    0%{transform: rotate(0);}
+    10%{transform: rotate(0);}
+  
+    10%{transform: rotate(30deg);}
+    50%{transform: rotate(30de);}
+  
+    50%{transform: rotate(-30deg);}
+    90%{transform: rotate(-30deg);}
+  
+    90%{transform: scale(1.2);}
+    100%{transform: scale(1.2);}
+  }
+
+
+
+.frase-contacto{
+
+  @include flex(flex,row,center)
+
+}
+
+.frase-contacto{
+          p{
+            padding: 10px;
+            font-size: 3em;
+            font-family: 'Meow Script', cursive;
+          }
+}
+
+$palabras:(
+
+    estamos: #3DA5D9,
+    para: #EDE6E3,
+    ayudarte: #133c55,
+);
+ @each $palabra,$color in $palabras {
+   .palabra-#{$palabra}{
+     color: $color;
+   }
+  
+
+ }
+ .animaciondos{
+  @include animation(animaciondos,2s,infinite,ease)
+ 
+}
+
+@keyframes animaciondos {
+  0%{color: #3DA5D9;}
+  40%{color: #3DA5D9;}
+
+  40%{color: #133c55;}
+  70%{color: #133c55;}
+
+  70%{color: #EDE6E3;}
+  100%{color: #EDE6E3;}
+
+
+}
+.animaciontres{
+  @include animation(animaciontres,2s,infinite,ease)
+  
+}
+
+@keyframes animaciontres {
+  0%{color: #EDE6E3;}
+  40%{color: #EDE6E3;}
+
+  40%{color: #3DA5D9;}
+  70%{color: #3DA5D9;}
+
+  70%{color: #133c55;}
+  100%{color: #133c55;}
+
+  
+
+}
+.animacioncuatro{
+  @include animation(animacioncuatro,2s,infinite,ease)
+  
+}
+
+@keyframes animacioncuatro {
+  0%{color: #133c55;}
+  10%{color: #133c55;}
+
+  40%{color: #EDE6E3;}
+  70%{color: #EDE6E3;}
+
+  70%{color: #3DA5D9;}
+  100%{color: #3DA5D9;}
+
+  
+  
+
+}

@@ -1,0 +1,34 @@
+/*==========LABORATORIO========*/
+.laboratorio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    grid-area: container;
+  }
+  .prop{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    line-height: 155%;
+    text-align: justify;
+    font-weight: 100;
+    margin: 15px;
+  }
+  .flab{
+
+    @include flex(flex,column,space-between);
+    
+    margin: 15px;
+    border: $border-img;
+    background-color:$color-borde-gris;
+    align-items: center;
+    height: 930px;
+    width: $width-img;
+    padding: 10px;
+   
+  }
+  .flab {
+          img{
+                padding: 0 10px 0 10px;
+                width: $width-img;
+              }
+            }            

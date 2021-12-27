@@ -1,0 +1,70 @@
+/*====NAV====*/
+.arreglo{
+    display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 0 0 30px !important;
+  }
+  .arreglo {
+              li {
+                    a{
+                        font-weight: 900;
+                        font-style: italic;
+                    }  
+                  }
+                }      
+  .container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav {
+        div {
+              img{
+                  border:$border-img;
+                }
+              }  
+            }    
+  .navbar-brand{
+   
+    padding-right: 50px;
+    font-style: italic;
+  }
+  
+  
+  /*Arreglo el nav traido de boostrap para que quede como yo quiero en responsive*/
+  
+  @media (min-width: 992px){
+  
+      .navbar-brand{
+          display: none;
+          margin-left: 2em !important;
+      }
+      }
+    
+    @media (max-width: 553px){
+      .navbar-brand{
+        display: none;
+        
+      }
+      nav {
+            div {
+                  img{
+                        width: 150px;
+                        height: 150px;
+                      }
+                    }
+                  }        
+    
+    }
+    @media (max-width: 991px){
+      .arreglo{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       background-color: gray;
+    }
+    
+    }
+    /*termino de arreglar el nav la parte responsive*/

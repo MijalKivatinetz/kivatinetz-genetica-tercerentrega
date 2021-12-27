@@ -1,0 +1,20 @@
+ /*footer*/
+  
+ footer{
+   
+    margin: 5px 30px 5px 30px;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .fflex {
+            p{
+            color: $color-fondo;
+            }
+        }
+  .icons {
+        svg{
+                margin: 5px;
+            }
+  }

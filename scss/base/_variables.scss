@@ -1,0 +1,43 @@
+//index&general&laboratorio//
+$color-borde-gris: #272D2D;
+$color-fondo: aliceblue;
+
+
+//nav & index & laboratorio &contacto//
+$border-img: solid 2px black;
+
+//index & laboratorio//
+$width-img: 200px;
+//index & laboratorio & contacto//
+$lab-p-margin:20px; 
+
+//media-queries//
+
+$media-queries-img-width:150px;
+
+//general//
+
+@mixin flex ($flex,$direction, $justify-content) {
+
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+  
+  }
+@mixin h ($text-aling, $font-size, $font-weight){
+    text-align: $text-aling;
+    font-size: $font-size;
+    font-weight: $font-weight;
+
+}
+@mixin animation ($name, $duration, $iteration, $timing){
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-iteration-count: $iteration;
+    animation-timing-function: $timing;
+
+}
+
+  
+
+$h1:4em;

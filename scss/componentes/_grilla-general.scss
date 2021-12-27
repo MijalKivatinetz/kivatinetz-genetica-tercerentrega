@@ -1,0 +1,11 @@
+/*grilla general*/
+.main-container-general{
+    display: grid;
+    
+    grid-template-areas: 
+    "header" 
+    "main"
+    "lnav"
+    "footer"
+    ;
+  }

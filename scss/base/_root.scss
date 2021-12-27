@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Meow+Script&family=Roboto:ital,wght@0,100;1,300;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*Estilos CSS para todas las paginas*/
+
+.hover{
+    transition: all 1s ease;   
+  
+            &:hover{
+                    transform: scale(1.5);
+  }
+}
+  main{
+    grid-area: main;
+  }
+  header{
+    grid-area: header;
+  }
+  /*h1*/
+  .flex-container-h1{
+    display: flex;
+    justify-content: center;
+    background-color: turquoise;
+  }
+  .tipografia{
+    font-family: 'Meow Script', cursive;
+    font-weight: bold;
+    font-size: 4em;
+  }
+  /*h2*/
+  h2{
+    @include h (center,50px,900)
+   
+  }
+  /*h3*/
+  h3{
+    @include h (center,32px,900)
+  
+  }
+  
+  /*recuadro de los textos*/
+  .pruebo-box{
+    padding: 15px;
+    border: solid 5px $color-borde-gris;
+    margin:  15px;
+    background-color: $color-fondo;
+  }

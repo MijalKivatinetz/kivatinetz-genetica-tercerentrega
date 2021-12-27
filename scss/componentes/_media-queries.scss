@@ -1,0 +1,188 @@
+
+/*==========MEDIA QUERY========*/
+
+/*todas las próximas medias son específicamente del html lab, fue para acomodar el texto en todas las medidas*/
+@media (max-width: 1300px) {
+    /*laboratorio*/
+    .prop{
+      font-size: 45px;
+      line-height: 140%;
+        
+    }
+  }
+  @media (max-width: 1024px) {
+    /*laboratorio*/
+    .prop{
+     
+      font-size: 40px;
+      line-height: 140%;
+    }
+  }
+  @media (max-width: 972px) {
+    /*laboratorio*/
+    .prop{
+      font-size: 35px;
+      line-height: 150%;
+    }
+      .flab{
+        display: none;
+      }
+      
+    
+  }
+  @media (max-width: 425px) {
+    /*laboratorio*/
+    .prop{
+      font-size: 30px;
+      
+    }
+    
+    
+  }
+  /*hasta aqui las media-querys del lab*/
+
+
+
+
+
+
+@media (max-width: 768px) {
+          /*h1*/
+h1{
+  font-size: $h1*0.8 !important;
+}
+
+          /*footer*/
+footer  {
+     div {
+         p{
+                font-size: 1em;
+                font-weight: 700;
+            }
+        }
+    }
+  footer{
+    @include flex(flex,column,center);
+    align-items: center;
+ 
+  }
+  /*nosotros*/
+  .contenido-nosotros{
+    display: none;
+   
+  }
+  
+    /*media query para index*/
+    .bioquimico{
+      display: none;
+    }
+    .cito {
+            p{
+            line-height: 300%;
+            font-size: 2em;
+            font-style: italic;
+            }
+        }
+    .laht {
+            p{
+                display: none;
+            }
+        }
+    .tucuman {
+                p{
+                    display: none;
+                }
+    }
+    .lac{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .ob{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    /*estudios*/
+    .iframe{
+      display: none;
+    }
+
+}
+@media (max-width: 320px) {
+    /*footer*/
+.sitio{
+    display: none;
+  }
+  footer  {
+            div {
+                    p{
+                        font-size: 1em;
+                        font-weight: 700;
+                    }
+                }
+            }
+    /*index*/
+.obrasSociales {
+                    img{
+                            width: 150px;
+                        }
+                    }
+  .lac{
+    display: none;
+  }
+  .obrasSociales{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+   
+  }
+  .media{
+    display: none;
+  }
+ 
+  /*laboratorio*/
+.prop{
+    font-size: 20px;
+    
+  }
+  /*ESTUDIOS*/
+  .artuno {
+            ul{
+                    display: none;
+                }
+  }
+  .artdos {
+            div{
+                    display: none;
+                }
+            }
+  .arttres {
+                div{
+                display: none;}
+            }
+  .artcuatro {
+                    ul{
+                        display: none;}
+                    }
+  .iframe{
+    display: none;
+  }
+  .contenido-estudios{
+    display: none;
+   
+  }
+  }
+  @media (min-width: 321px) {
+    /*estudios*/
+  .acordion-estudios{
+    display: none;
+  }
+  }
+  @media (min-width: 769px) {
+  /*nosotros*/
+  .acordeon-nosotros{
+    display: none;
+  }
+  }
