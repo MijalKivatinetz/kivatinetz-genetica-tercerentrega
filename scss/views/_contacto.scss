@@ -66,13 +66,13 @@
 
 .frase-contacto{
 
-  @include flex(flex,row,center)
-
+  @include flex(flex,row,center);
+       
 }
 
 .frase-contacto{
           p{
-            padding: 10px;
+            padding: 10px 5px 10px 5px;
             font-size: 3em;
             font-family: 'Meow Script', cursive;
           }
@@ -87,6 +87,7 @@ $palabras:(
  @each $palabra,$color in $palabras {
    .palabra-#{$palabra}{
      color: $color;
+     
    }
   
 

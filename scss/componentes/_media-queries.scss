@@ -115,7 +115,14 @@ footer  {
     .iframe{
       display: none;
     }
-
+      /*contacto*/
+    .frase-contacto{
+      p{
+        padding: 10px 5px 10px 5px;
+        font-size: 2em;
+        font-family: 'Meow Script', cursive;
+      }
+}
 }
 @media (max-width: 320px) {
     /*footer*/
