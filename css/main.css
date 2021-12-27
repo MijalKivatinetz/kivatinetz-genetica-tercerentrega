@@ -462,6 +462,10 @@ article ul li {
     display: flex;
     flex-direction: column;
     align-items: center; }
+  .obrasSociales {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 30px; }
   /*estudios*/
   .iframe {
     display: none; } }
@@ -478,10 +482,6 @@ article ul li {
     width: 150px; }
   .lac {
     display: none; }
-  .obrasSociales {
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-gap: 30px; }
   .media {
     display: none; }
   /*laboratorio*/
