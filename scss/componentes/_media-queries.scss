@@ -95,12 +95,11 @@ footer  {
                 }
     }
     .lac{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+      @include flex(flex,column,space-around);
       align-items: center;
     }
     .ob{
+      
       display: flex;
       flex-direction: column;
       align-items: center;
