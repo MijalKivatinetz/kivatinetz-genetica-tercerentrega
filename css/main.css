@@ -491,7 +491,9 @@ article ul li {
     display: none; }
   /*laboratorio*/
   .prop {
-    font-size: 20px; }
+    font-size: 20px; } }
+
+@media (max-width: 425px) {
   /*ESTUDIOS*/
   .artuno ul {
     display: none; }
@@ -501,12 +503,10 @@ article ul li {
     display: none; }
   .artcuatro ul {
     display: none; }
-  .iframe {
-    display: none; }
   .contenido-estudios {
     display: none; } }
 
-@media (min-width: 321px) {
+@media (min-width: 426px) {
   /*estudios*/
   .acordion-estudios {
     display: none; } }

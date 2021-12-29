@@ -114,6 +114,7 @@ footer  {
     .iframe{
       display: none;
     }
+   
       /*contacto*/
     .frase-contacto{
       p{
@@ -155,34 +156,35 @@ footer  {
     font-size: 20px;
     
   }
-  /*ESTUDIOS*/
-  .artuno {
-            ul{
-                    display: none;
-                }
+  
   }
-  .artdos {
-            div{
-                    display: none;
-                }
-            }
-  .arttres {
-                div{
+  @media (max-width: 425px) {
+    /*ESTUDIOS*/
+  .artuno {
+    ul{
+            display: none;
+        }
+}
+.artdos {
+    div{
+            display: none;
+        }
+    }
+.arttres {
+        div{
+        display: none;}
+    }
+.artcuatro {
+            ul{
                 display: none;}
             }
-  .artcuatro {
-                    ul{
-                        display: none;}
-                    }
-  .iframe{
-    display: none;
+
+.contenido-estudios{
+display: none;
+
+}
   }
-  .contenido-estudios{
-    display: none;
-   
-  }
-  }
-  @media (min-width: 321px) {
+  @media (min-width: 426px) {
     /*estudios*/
   .acordion-estudios{
     display: none;
